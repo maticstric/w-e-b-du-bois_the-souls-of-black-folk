@@ -33,11 +33,6 @@ section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
-
-[epub|type~="dedication"] > p{
-	text-align: center;
-	text-indent: 0;
-}
 /* End dedications */
 
 /* Poetry, song, and verse */
@@ -142,5 +137,15 @@ section > header [epub|type~="epigraph"] + *{
 /* Custom */
 #dediction span{
 	font-weight: 1.5em;
+}
+
+[epub|type~="dedication"] p{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+
+[epub|type~="dedication"] b{
+	text-transform: uppercase;
 }
 /* End custom */
